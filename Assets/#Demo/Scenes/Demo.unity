@@ -909,6 +909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7747af5587cf4cd3a4e6980dd4db3003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tweetMessage: Tweet from Unity WebGL Demo%0a%23TweetFromUnityWebGL
   _imgurClientId: 65d41c0cafa7801
 --- !u!114 &2137610007
 MonoBehaviour:
@@ -922,3 +923,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21eadb72d656504fbc1663217cf6c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tweetMessage: Tweet from Unity WebGL Demo%0a%23TweetFromUnityWebGL

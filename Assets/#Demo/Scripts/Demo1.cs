@@ -5,6 +5,8 @@ using System.Runtime.InteropServices;
 
 public class Demo1 : MonoBehaviour
 {
+    [SerializeField] private string _tweetMessage;
+
 #if !UNITY_EDITOR && UNITY_WEBGL
     [DllImport("__Internal")]
     private static extern string TweetFromUnity(string rawMessage);
@@ -13,7 +15,7 @@ public class Demo1 : MonoBehaviour
     public void Tweet()
     {
 #if !UNITY_EDITOR && UNITY_WEBGL
-        TweetFromUnity("Tweet Message");
+        TweetFromUnity($"{_tweetMessage}");
 #endif
     }
 }

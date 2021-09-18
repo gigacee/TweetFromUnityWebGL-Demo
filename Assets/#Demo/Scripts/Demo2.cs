@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 
 public class Demo2 : MonoBehaviour
 {
+    [SerializeField] private string _tweetMessage;
     [SerializeField] private string _imgurClientId;
 
 #if !UNITY_EDITOR && UNITY_WEBGL
@@ -52,7 +53,7 @@ public class Demo2 : MonoBehaviour
         }
 
 #if !UNITY_EDITOR && UNITY_WEBGL
-        TweetFromUnity($"Tweet Message%0a{uri}");
+        TweetFromUnity($"{_tweetMessage}%0a{uri}");
 #endif
     }
 }
