@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Original code from https://github.com/ttyyamada/TweetWithScreenShotInWebGL
+// Licensed under https://github.com/ttyyamada/TweetWithScreenShotInWebGL/blob/master/LICENSE
+
+using System;
 using System.Collections;
 using System.Xml.Linq;
 using UnityEngine;
