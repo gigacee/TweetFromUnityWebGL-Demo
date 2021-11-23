@@ -64,6 +64,9 @@ sysinfo.txt
 *.apk
 *.aab
 
+# For WebGL Build
+!/[Bb]uild/WebGL/.htaccess
+
 # Crashlytics generated file
 crashlytics-build.properties
 
